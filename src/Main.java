@@ -31,12 +31,18 @@ public class Main {
         System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
     }
     else {
-        System.out.println("На улице " + temperature + " градусов, сиди дома :р");
+        System.out.println("На улице " + temperature + " градусов, то сиди дома :р");
     }
     }
     public static void task3 () {
         System.out.println("Задача 3");
-
+    int speed = 0;
+    if (speed > 60) {
+        System.out.println("Если скорость " + speed + ", то придется заплатить штраф ");
+    }
+    else {
+        System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
+    }
     }
     public static void task4 () {
         System.out.println("Задача 4");
