@@ -94,6 +94,19 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
-
+    int one = 1;
+    int two = 2;
+    int three = 3;
+    boolean first = one > two && one > three;
+    boolean second = two > one && two > three;
+    if (first) {
+        System.out.println(one);
+        }
+        else if (second) {
+        System.out.println(two);
+            }
+            else {
+            System.out.println(three);
+                }
     }
 }
