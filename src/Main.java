@@ -80,10 +80,12 @@ public class Main {
     int passengers = 55;
     int lastSittingPlace = sittingPlace - passengers;
     int lastStandingPlace = standingPlace - (passengers - sittingPlace);
-    if (passengers >= 0 && passengers <= 60) {
+    boolean sitsOn = passengers >= 0 && passengers <= 60;
+    boolean sitsOff = passengers > 60 && passengers < 102;
+    if (sitsOn) {
         System.out.println("Если пассажиров " + passengers + ", то сидячих мест " + lastSittingPlace + ", стоячих мест " + standingPlace);
         }
-        else if (passengers > 60 && passengers < 102) {
+        else if (sitsOff) {
         System.out.println("Если пассажиров " + passengers + ", то сидячих мест 0, стоячих мест " + lastStandingPlace);
             }
             else {
