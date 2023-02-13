@@ -54,13 +54,23 @@ public class Main {
     else if (age > 18 && age < 24) {
         System.out.println("то ему нужно ходить в университет");
         }
-    else if (age > 24) {
+    else {
         System.out.println("то ему нужно ходить на работу");
         }
     }
     public static void task5 () {
         System.out.println("Задача 5");
-
+    int age = 10;
+        System.out.println("Если возраст ребёнка равен " + age + ",");
+    if (age <= 5) {
+        System.out.println("то ему нельзя кататься на аттракционе");
+        }
+    else if (age > 5 && age <= 14) {
+        System.out.println("то можно кататься на аттракционе в сопровождении");
+        }
+    else {
+        System.out.println("то можно кататься на аттракционе без сопровождения взрослого");
+    }
     }
     public static void task6 () {
         System.out.println("Задача 6");
