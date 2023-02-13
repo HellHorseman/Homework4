@@ -54,7 +54,7 @@ public class Main {
     else if (age > 18 && age < 24) {
         System.out.println("то ему нужно ходить в университет");
         }
-    else {
+    else if (age > 24) {
         System.out.println("то ему нужно ходить на работу");
         }
     }
@@ -66,7 +66,7 @@ public class Main {
         System.out.println("то ему нельзя кататься на аттракционе");
         }
     else if (age > 5 && age <= 14) {
-        System.out.println("то можно кататься на аттракционе в сопровождении");
+        System.out.println("то можно кататься на аттракционе в сопровождении взрослого");
         }
     else {
         System.out.println("то можно кататься на аттракционе без сопровождения взрослого");
