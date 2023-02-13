@@ -24,20 +24,17 @@ public class Main {
     public static void task2 () {
         System.out.println("Задача 2");
     int temperature = 3;
-    if (temperature <= -5) {
-        System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
-    }
     if (temperature >= 5) {
-        System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
-    }
+            System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
+        }
     else {
-        System.out.println("На улице " + temperature + " градусов, то сиди дома :р");
+        System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
     }
     }
     public static void task3 () {
         System.out.println("Задача 3");
-    int speed = 0;
-    if (speed > 60) {
+    int speed = 60;
+    if (speed > 61) {
         System.out.println("Если скорость " + speed + ", то придется заплатить штраф ");
     }
     else {
@@ -46,7 +43,20 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
-
+    int age = 3;
+        System.out.println("Если возраст человека равен " + age + " лет,");
+    if (age >= 2 && age <= 6) {
+        System.out.println("то ему нужно ходить в детский сад");
+        }
+    else if (age >= 7 && age <= 18) {
+        System.out.println("то ему нужно ходить в школу");
+        }
+    else if (age > 18 && age < 24) {
+        System.out.println("то ему нужно ходить в университет");
+        }
+    else if (age > 24) {
+        System.out.println("то ему нужно ходить на работу");
+        }
     }
     public static void task5 () {
         System.out.println("Задача 5");
